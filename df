@@ -1,0 +1,6 @@
+e subtraction is $((a-b))"
+echo "The multiplication is $((a*b))"
+echo "The division is $((a/b))"
+if [ $a > $b ]
+then
+ echo "A is bigg
