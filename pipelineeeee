@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters{
-            choice (name :'environment', choices:['dev','test','master'],description:'select the environment')
+            choice (name :'environment', choices:['dev','test','Master'],description:'select the environment')
     }
     stages{
         stage ('Script'){
@@ -9,6 +9,8 @@ pipeline {
             script{
                 def branch=''
                 if (params.environment=='Dev') {branch='DEV'}
+                else if (params.environment=='test') {branch='TEST'}
+                else if (params.environment=='Master') {branch='master'}
                   }
              }
           }
