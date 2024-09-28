@@ -1,5 +1,1 @@
-#!/bin/bash
-sudo apt-get update
-sudo apt-get install curl -y
-sudo curl -fsSL get.docker.com | bash
-sudo usermod -aG docker ubuntu
+created a file
