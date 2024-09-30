@@ -2,3 +2,5 @@ afvhlafkjbnlakvf
 asdkhcbdasjhcbasjbch
 adsvbajsdbhcasdjbhchsajd
 https://github.com/Cohesity2022/certified-kubernetes-administrator/tree/main/Cluster%20Setup
+kubeadm join 192.168.211.64:6443 --token c9t7tc.7r5586xry9k3cvxc \
+	--discovery-token-ca-cert-hash sha256:3b2d17310ebfcdb81703a142b893c2c912a7392bf38819d40b19a4c736632258 
